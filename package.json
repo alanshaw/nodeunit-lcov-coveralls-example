@@ -1,0 +1,20 @@
+{
+  "name": "nodeunit-lcov-coveralls-example",
+  "version": "0.0.0",
+  "description": "Example showing how to use the new nodeunit lcov reporter to publish coverage data to coveralls",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "QUICKSORT_COV=1 nodeunit --reporter=lcov test",
+    "coveralls": "jscoverage lib && QUICKSORT_COV=1 nodeunit --reporter=lcov test | coveralls"
+  },
+  "repository": "git://github.com/alanshaw/nodeunit-lcov-coveralls-example.git",
+  "author": "Alan Shaw",
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": "git://github.com/alanshaw/nodeunit.git#8c199d7bde425e099d3097789309ac23348aa8e5",
+    "jscoverage": "~0.3.7",
+    "coveralls": "~2.0.9"
+  },
+  "license": "MIT"
+}
