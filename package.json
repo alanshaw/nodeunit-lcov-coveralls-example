@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "QUICKSORT_COV=1 nodeunit --reporter=lcov test",
+    "test": "nodeunit test",
     "coveralls": "jscoverage lib && QUICKSORT_COV=1 nodeunit --reporter=lcov test | coveralls"
   },
   "repository": "git://github.com/alanshaw/nodeunit-lcov-coveralls-example.git",
