@@ -1,4 +1,4 @@
-nodeunit-lcov-coveralls-example
+nodeunit-lcov-coveralls-example [![Coverage Status](https://coveralls.io/repos/alanshaw/nodeunit-lcov-coveralls-example/badge.png)](https://coveralls.io/r/alanshaw/nodeunit-lcov-coveralls-example)
 ===
 
 Example showing how to use the new nodeunit lcov reporter to publish coverage data to Coveralls from Travis.
