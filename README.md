@@ -10,7 +10,7 @@ How to
 
 ### Setup package.json
 
-You should alter you package.json file so that it depends on nodeunit, jscoverage and coveralls:
+Depend on nodeunit, jscoverage and coveralls:
 
 ```sh
 npm install nodeunit jscoverage coveralls --save-dev
