@@ -12,12 +12,10 @@ How to
 
 You should alter you package.json file so that it depends on nodeunit, jscoverage and coveralls:
 
-```javascript
-"devDependencies": {
-  "nodeunit": "https://github.com/alanshaw/nodeunit/tarball/master",
-  "jscoverage": "~0.3.7",
-  "coveralls": "~2.0.9"
-}
+```sh
+npm install nodeunit --save-dev
+npm install jscoverage --save-dev
+npm install coveralls --save-dev
 ```
 
 Next, add a coveralls script to "scripts"

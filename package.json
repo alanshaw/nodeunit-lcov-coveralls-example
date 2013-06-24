@@ -12,7 +12,7 @@
   "author": "Alan Shaw",
   "dependencies": {},
   "devDependencies": {
-    "nodeunit": "https://github.com/alanshaw/nodeunit/tarball/master",
+    "nodeunit": "~0.8.1",
     "jscoverage": "~0.3.7",
     "coveralls": "~2.0.9"
   },
