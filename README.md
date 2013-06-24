@@ -13,9 +13,7 @@ How to
 You should alter you package.json file so that it depends on nodeunit, jscoverage and coveralls:
 
 ```sh
-npm install nodeunit --save-dev
-npm install jscoverage --save-dev
-npm install coveralls --save-dev
+npm install nodeunit jscoverage coveralls --save-dev
 ```
 
 Next, add a coveralls script to "scripts"

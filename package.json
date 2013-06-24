@@ -14,7 +14,7 @@
   "devDependencies": {
     "nodeunit": "~0.8.1",
     "jscoverage": "~0.3.7",
-    "coveralls": "~2.0.9"
+    "coveralls": "~2.0.16"
   },
   "license": "MIT"
 }
