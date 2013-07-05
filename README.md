@@ -34,7 +34,7 @@ The "coveralls" script does a few things:
 2. Run nodeunit for all files in the directory `test`, using the lcov reporter to output the coverage report to stdout.
 3. Pipe the lcov report to [coveralls](https://npmjs.org/package/coveralls), which in turn submits the report to [coveralls.io](https://coveralls.io/).
 
-You can run the coveralls script via `npm run-script coveralls`
+You can run the coveralls script via `npm run coveralls`
 
 ### Require instrumented code
 
@@ -54,12 +54,12 @@ var quickSort = require('../');
 
 ### Submit to coveralls
 
-To submit to coveralls you'll either need to add a `.coveralls.yml` file with your repo secret key to your project root (which you shouldn't commit to github!) or submit your coverage via [Travis](https://travis-ci.org/). If you're using a `.coveralls.yml` file you can simply run `npm run-script coveralls` and your code coverage will appear (assuming you first enabled the repository on the coveralls website). If you're using Travis, you need to add a `.travis.yml` file that runs your tests and submits the report:
+To submit to coveralls you'll either need to add a `.coveralls.yml` file with your repo secret key to your project root (which you shouldn't commit to github!) or submit your coverage via [Travis](https://travis-ci.org/). If you're using a `.coveralls.yml` file you can simply run `npm run coveralls` and your code coverage will appear (assuming you first enabled the repository on the coveralls website). If you're using Travis, you need to add a `.travis.yml` file that runs your tests and submits the report:
 
 ```yaml
 language: node_js
 node_js:
   - "0.10"
 after_script:
-  - npm run-script coveralls
+  - npm run coveralls
 ```
